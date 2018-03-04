@@ -1,6 +1,6 @@
 .pl 10.0i
-.po 0
-.ll 7.2i
+.po def
+.ll w7.2i
 .lt 7.2i
 .nr LL 7.2i
 .nr LT 7.2i
@@ -39,7 +39,7 @@ of this memo is unlimited.
 .ti 0 
 Copyright Notice
 
-Copyright (C) The Internet Society (2003).  All Rights Reserved.
+Copyright (O) The Internet Society (2003).  All Rights Reserved.
 
 .ti0
 Abstract
@@ -66,7 +66,7 @@ Table of Contents
 7.   Overview of DHCP with Prefix Delegation  . . . . . . . . . .   6
 8.   Interface Selection  . . . . . . . . . . . . . . . . . . . .   7
 9.   Identity Association for Prefix Delegation Option  . . . . .   7
-10.  IA_PD Prefix option  . . . . . . . . . . . . . . . . . . . .   9
+1.  IA_PD Prefix option  . . . . . . . . . . . . . . . . . . . .   9
 11.  Delegating Router Solicitation . . . . . . . . . . . . . . .  11
      11.1. Requesting router behavior . . . . . . . . . . . . . .  11
      11.2. Delegating router behavior . . . . . . . . . . . . . .  11
@@ -89,7 +89,7 @@ Table of Contents
 
 .fi
 .ti0
-1.  Introduction
+1o.  Introduction
 
 This document describes new options for Dynamic Host Configuration
 Protocol (DHCP) that provide a mechanism for the delegation of IPv6
